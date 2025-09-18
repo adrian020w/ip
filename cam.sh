@@ -15,7 +15,7 @@ echo "---------------------------------------------------------"
 
 banner
 
-read -p "Masukkan IP (privat atau publik, kosong = IP publik mesin): " IP
+read -p "Masukkan IP : " IP
 
 if [[ -z "$IP" ]]; then
     # Ambil IP publik mesin
